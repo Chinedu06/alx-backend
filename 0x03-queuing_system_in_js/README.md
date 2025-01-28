@@ -1,34 +1,14 @@
 # Queuing System in JavaScript
 
-## Description
+This project is a simple queuing system implemented in JavaScript using Redis and Node.js.
 
-This project demonstrates a queuing system using Redis and JavaScript. Task 0 involves installing Redis, running the server, and interacting with the Redis client.
+## Installation
 
-## Setup Instructions
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Start the Redis server.
+4. Run the application using `npm run dev`.
 
-1. **Download Redis**:
-   - `wget http://download.redis.io/releases/redis-6.0.10.tar.gz`
+## Usage
 
-2. **Compile Redis**:
-   - Extract and compile Redis using `make`.
-
-3. **Run Redis**:
-   - Start the server: `src/redis-server &`.
-   - Test connectivity: `src/redis-cli ping`.
-
-4. **Interact with Redis**:
-   - Set and retrieve keys using the Redis CLI.
-
-5. **Stop Redis**:
-   - Identify and kill the server process.
-
-## Files
-
-- `dump.rdb`: The Redis dump file containing the data.
-- `package.json`: Configuration for the JavaScript queuing system.
-- `.babelrc`: Babel configuration for ES6+.
-
-## Author
-
-Godswill Okereke
-
+- Use the provided scripts to interact with the queuing system.
